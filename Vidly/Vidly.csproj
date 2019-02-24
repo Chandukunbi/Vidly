@@ -183,6 +183,10 @@
     <Compile Include="Migrations\201902240830287_CreateTableMovies.Designer.cs">
       <DependentUpon>201902240830287_CreateTableMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902240840387_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\201902240840387_AddIsSubscribedToCustomer.Designer.cs">
+      <DependentUpon>201902240840387_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -274,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902240830287_CreateTableMovies.resx">
       <DependentUpon>201902240830287_CreateTableMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902240840387_AddIsSubscribedToCustomer.resx">
+      <DependentUpon>201902240840387_AddIsSubscribedToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
