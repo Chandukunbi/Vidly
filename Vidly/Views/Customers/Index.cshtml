@@ -6,10 +6,26 @@
 
 <h2>Customers</h2>
 
-<ul>
+@if (Model.Customers.Count==0)
+{
+
+
+<table border="1" width="500">
+    <tr>
+        <th>Customer</th>
+    </tr>
     @foreach (var customer in Model.Customers)
     {
-        <li>@customer.Name</li>
+        <tr>
+            <td>
+                <a href="/Customers/Details/1">@customer.Name</a>
+            </td>
+        </tr>
     }
-</ul>
+</table>
+}
+else
+{
+    <text>We don't have any customers yet.</text>
+}
 
