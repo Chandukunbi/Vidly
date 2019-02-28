@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201902280943203_AddBirthdateToCustomer.Designer.cs">
       <DependentUpon>201902280943203_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902280950132_MakeBirthdateOfCustomerNonNullable.cs" />
+    <Compile Include="Migrations\201902280950132_MakeBirthdateOfCustomerNonNullable.Designer.cs">
+      <DependentUpon>201902280950132_MakeBirthdateOfCustomerNonNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -231,6 +235,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="ViewModels\MoviesViewModel.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -341,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902280943203_AddBirthdateToCustomer.resx">
       <DependentUpon>201902280943203_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280950132_MakeBirthdateOfCustomerNonNullable.resx">
+      <DependentUpon>201902280950132_MakeBirthdateOfCustomerNonNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
